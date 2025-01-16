@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ELIGE EL COLOR AZUL"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:gravity="center" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/boton_verde"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/verde"
+            android:contentDescription="Botón verde"
+            android:background="@null" />
+
+        <ImageButton
+            android:id="@+id/boton_amarillo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/amarillo"
+            android:contentDescription="Botón amarillo"
+            android:background="@null" />
+
+        <ImageButton
+            android:id="@+id/boton_rojo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/rojo"
+            android:contentDescription="Botón rojo"
+            android:background="@null" />
+
+        <ImageButton
+            android:id="@+id/boton_azul"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/azul"
+            android:contentDescription="Botón azul"
+            android:background="@null" />
+    </GridLayout>
+
+</LinearLayout>
